@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>task-runner-gui</title>
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- guild useref などで本番環境では読み込まないようにする -->
+    <script>require('electron-connect').client.create()</script>
+    <script src="./javascripts/index.js"></script>
+</body>
+</html>
