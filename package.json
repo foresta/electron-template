@@ -22,8 +22,13 @@
     "gulp-plumber": "^1.0.1",
     "gulp-run": "^1.6.12",
     "gulp-sass": "^2.1.1",
-    "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "redux-devtools": "^3.1.1",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1"
   }
 }
